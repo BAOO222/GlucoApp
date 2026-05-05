@@ -15,12 +15,10 @@
       "distribution": "internal",
       "ios": {
         "simulator": false
-      },
-      "channel": "preview"
+      }
     },
     "production": {
       "autoIncrement": true,
-      "channel": "production",
       "ios": {
         "simulator": false
       }
@@ -29,7 +27,7 @@
   "submit": {
     "production": {
       "ios": {
-        "appleId": "SEU_APPLE_ID@email.com",
+        "appleId": "adm@baoomarket.com.br",
         "ascAppId": "SEU_APP_STORE_CONNECT_APP_ID",
         "appleTeamId": "SEU_TEAM_ID"
       }
