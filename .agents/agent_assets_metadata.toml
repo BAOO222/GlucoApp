@@ -1,5 +1,4 @@
 uploads = []
-outputs = []
 
 [[generated]]
 id = "hH4stZVOjQ3S1qmDLMbLc"
@@ -18,3 +17,33 @@ id = "Lc7dgspZhOieuCuRFAke7"
 uri = "file://artifacts/glucoapp/assets/images/splash-background.png"
 type = "image"
 title = "splash background"
+
+[[outputs]]
+id = "qH29uDGO4tFeEWpkcqAgP"
+uri = "file://screenshots/01_onboarding.jpg"
+type = "image"
+title = "1 — Boas-vindas"
+
+[[outputs]]
+id = "_pHAT6fU3sIycK7GTFqW0"
+uri = "file://screenshots/02_home.jpg"
+type = "image"
+title = "2 — Tela Inicial"
+
+[[outputs]]
+id = "UXQP3M4-_gIcjR2CZ--bo"
+uri = "file://screenshots/03_register.jpg"
+type = "image"
+title = "3 — Registrar Glicose"
+
+[[outputs]]
+id = "Mkg92V4LAkilBcdWCh_Cu"
+uri = "file://screenshots/04_history.jpg"
+type = "image"
+title = "4 — Histórico"
+
+[[outputs]]
+id = "fshjVZfvlJhuc3hIu460C"
+uri = "file://screenshots/05_more.jpg"
+type = "image"
+title = "5 — Perfil e Configurações"
