@@ -18,7 +18,7 @@ import { useColors } from "@/hooks/useColors";
 import { useGlucose } from "@/context/GlucoseContext";
 
 export default function OnboardingScreen() {
-  const colors = useColors() as Record<string, string>;
+  const colors = useColors() as unknown as Record<string, string>;
   const insets = useSafeAreaInsets();
   const { updateProfile } = useGlucose();
   const [name, setName] = useState("");

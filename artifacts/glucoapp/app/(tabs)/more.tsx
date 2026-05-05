@@ -24,7 +24,7 @@ interface RowProps {
 }
 
 function SettingsRow({ icon, label, value, onPress, danger }: RowProps) {
-  const colors = useColors() as Record<string, string>;
+  const colors = useColors() as unknown as Record<string, string>;
   return (
     <TouchableOpacity
       onPress={onPress}
@@ -64,7 +64,7 @@ function SettingsRow({ icon, label, value, onPress, danger }: RowProps) {
 }
 
 export default function MoreScreen() {
-  const colors = useColors() as Record<string, string>;
+  const colors = useColors() as unknown as Record<string, string>;
   const insets = useSafeAreaInsets();
   const { profile, updateProfile, readings } = useGlucose();
   const [editing, setEditing] = useState(false);

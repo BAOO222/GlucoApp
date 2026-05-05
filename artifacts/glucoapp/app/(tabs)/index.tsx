@@ -28,7 +28,7 @@ const QUICK_ACTIONS = [
 ];
 
 export default function HomeScreen() {
-  const colors = useColors() as Record<string, string>;
+  const colors = useColors() as unknown as Record<string, string>;
   const insets = useSafeAreaInsets();
   const { latestReading, readings, deleteReading, profile } = useGlucose();
 

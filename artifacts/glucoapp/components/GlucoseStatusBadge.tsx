@@ -10,7 +10,7 @@ interface Props {
 }
 
 export default function GlucoseStatusBadge({ status, size = "md" }: Props) {
-  const colors = useColors() as Record<string, string>;
+  const colors = useColors() as unknown as Record<string, string>;
 
   const statusColorMap: Record<GlucoseStatus, { bg: string; text: string }> = {
     normal: { bg: colors.statusNormalBg, text: colors.statusNormal },

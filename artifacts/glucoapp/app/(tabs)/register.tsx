@@ -26,7 +26,7 @@ const CONTEXT_OPTIONS: { id: GlucoseContext; icon: "moon" | "coffee" | "check-ci
 ];
 
 export default function RegisterScreen() {
-  const colors = useColors() as Record<string, string>;
+  const colors = useColors() as unknown as Record<string, string>;
   const insets = useSafeAreaInsets();
   const { addReading } = useGlucose();
 
