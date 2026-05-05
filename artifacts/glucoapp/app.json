@@ -49,8 +49,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": "SEU_PROJECT_ID_AQUI"
+        "projectId": "6e1ef5f1-f5ab-43b9-8104-525d77838125"
       }
-    }
+    },
+    "owner": "baoomarket"
   }
 }
