@@ -1,0 +1,20 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "hH4stZVOjQ3S1qmDLMbLc"
+uri = "file://artifacts/glucoapp/assets/images/mascot.png"
+type = "image"
+title = "blue mascot character"
+
+[[generated]]
+id = "amMnYcbD0EmO_uQwThMlE"
+uri = "file://artifacts/glucoapp/assets/images/icon.png"
+type = "image"
+title = "glucoapp icon"
+
+[[generated]]
+id = "Lc7dgspZhOieuCuRFAke7"
+uri = "file://artifacts/glucoapp/assets/images/splash-background.png"
+type = "image"
+title = "splash background"
