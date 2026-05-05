@@ -14,9 +14,22 @@
       "backgroundColor": "#EEF4FF"
     },
     "ios": {
-      "supportsTablet": false
+      "supportsTablet": false,
+      "bundleIdentifier": "com.glucoapp.app",
+      "buildNumber": "1",
+      "infoPlist": {
+        "NSHealthShareUsageDescription": "O GlucoApp usa dados de saúde para exibir suas leituras de glicose.",
+        "NSHealthUpdateUsageDescription": "O GlucoApp salva suas leituras de glicose no HealthKit.",
+        "NSMotionUsageDescription": "Usado para detectar atividade física relacionada ao controle glicêmico.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
-    "android": {},
+    "android": {
+      "package": "com.glucoapp.app"
+    },
     "web": {
       "favicon": "./assets/images/icon.png"
     },
@@ -33,6 +46,11 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "SEU_PROJECT_ID_AQUI"
+      }
     }
   }
 }
